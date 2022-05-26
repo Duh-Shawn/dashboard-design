@@ -16,7 +16,7 @@
                     <img id="logo-image" class="side-img" src=1/>Dashboard
                 </h1>
             </div>
-            
+
             <nav>
                 <ul class="app-navigation">
                     <li class="side-item">
@@ -73,29 +73,41 @@
             </nav>
         </div>
 
-        <div class="header-nav">
-            <div class="search-bar">
-                <button class="search-button"></button>
-                <p>Search Bar placeholder</p>
-            </div>
-
-            <div class="profile-settings">
-                <button class="notifcations"></button>
-                <button class="profile-picture"></button>
-                <button class="user-name"></button>
-            </div> 
-        </div>
-
         <header>
-            <div class="greeting">
-                <p>Greeting profile Logo header placeholder</p>
-                <p>Hi there,</p>
-                <p>Morgan Oakley(@morgan)</p>
+            <div class="header-nav">
+                <div class="search-bar">
+                    <form id="search">
+                        <button style="background: url(1)"></button>
+                        <input class="search-bar-field" type="search" id="query" name="query" placeholder="......"> 
+                    </form>
+                </div>
+    
+                <div class="profile-settings">                
+                    <a class="notifications" href="./notifications">
+                        <img class="side-img" src=1/>                       
+                    </a>
+                    <a class="profile-picture" href="./profile-picture">
+                        <img class="side-img" src=1/>                       
+                    </a>
+                    <a class="user-name" href="./settings">
+                        Morgan Oakley                       
+                    </a>
+                </div>
             </div>
-            <button id="new-article" class="header-button"></button>
-            <button id="upload-article" class="header-button"></button>
-            <button id="share-article" class="header-button"></button>
+            <div class="welcome-section">
+                <div class="greeting">
+                    <img src=1/>
+                    <p>Hi there, <br>Morgan Oakley(@morgan)</p>
+                </div>
+                <div class="article-buttons">
+                    <button id="new-article">New</button>
+                    <button id="upload-article">Upload</button>
+                    <button id="share-article">Share</button>
+                </div>
+                
+            </div>
         </header>
+        
 
         <main>
 
