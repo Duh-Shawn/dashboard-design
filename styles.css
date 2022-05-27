@@ -22,13 +22,8 @@
     padding-top: 15px;
     grid-row: 1 / 3;
     display: grid;
-    grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto 1fr;
     gap: 50px;
-}
-
-nav{
-    display: grid;
 }
 
 ul{
@@ -36,36 +31,37 @@ ul{
 }
 
 .side-item a,
-.logo h1 {
-    display: grid;
-    grid-template-columns: 0fr 1fr;
+.logo{
+    display: flex;
     align-items: center;
     color: white;
-}
-
-.side-img{
-    margin-right: 15px;
-    color: white;
-}
-
-.logo-img{
-    width: 75px;
+    gap: 15px;
+    margin-left: 25px;
 }
 
 .logo{
     font-size: 25px;
-    justify-self: flex-start;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+
+.logo-img{
+    width: 75px;
+    height: 75px;
 }
 
 .app-navigation{
     display: grid;
     align-items: center;
+    gap: 15px;
 }
 
 .app-settings{
     display: grid;
     align-items: center;
-    grid-template-rows: 1fr 1fr 1fr 8fr;
+    gap: 15px;
 }
 
 header{
@@ -93,8 +89,6 @@ header{
 .search-bar{
     align-self: center;
 }
-
-
 
 form{
     display: grid;
@@ -176,10 +170,6 @@ main{
     grid-row: 2 / 3;
     gap: 25px;
     background-color: #eef2ff;
-}
-
-h1{
-    margin-bottom: 10px;
 }
 
 .projects{
