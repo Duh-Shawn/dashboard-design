@@ -74,7 +74,37 @@
         </div>
 
         <header>
-            <div class="header-nav">
+            <div class="search-bar">
+                <form id="search">
+                    <button id="submit-query"></button>
+                    <input class="search-bar-field" type="search" id="query" name="query" placeholder="......"> 
+                </form>
+            </div>
+
+            <div class="profile-settings">                
+                <a class="notifications" href="./notifications">
+                    <img class="side-img" src="icons/bell-alert-outline.svg"/>                       
+                </a>
+                <a class="profile-picture" href="./profile-picture">
+                    <img class="side-img" src="profile-pics/ice-bear.jpg"/>                       
+                </a>
+                <a class="user-name" href="./settings">
+                    Morgan Oakley                       
+                </a>
+            </div>
+            
+            <div class="welcome-section">
+                <div class="greeting">
+                    <img src="profile-pics/ice-bear.jpg"/>
+                    <p>Hi there, <br>Morgan Oakley(@morgan)</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="new-article">New</button>
+                <button id="upload-article">Upload</button>
+                <button id="share-article">Share</button>
+            </div>
+            <!-- <div class="header-nav">
                 <div class="search-bar">
                     <form id="search">
                         <button id="submit-query"></button>
@@ -105,7 +135,7 @@
                     <button id="share-article">Share</button>
                 </div>
                 
-            </div>
+            </div> -->
         </header>
         
 
