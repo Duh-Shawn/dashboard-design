@@ -152,11 +152,22 @@ h1{
     background-color: white;
     border-radius: 10px;
     padding: 25px;
+    display: grid;
+    grid-template-rows: 0fr 1fr 1fr;
 }
 
 .card p{
     word-wrap: break-word;
     word-break: break-all;
+    width: 500px;
+}
+
+.card-links-wrapper{
+    align-self: center;
+    justify-self: flex-end;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    gap: 50px;
 }
 
 .announcement-section,
@@ -196,7 +207,9 @@ h1{
     border-bottom: none;
 }
 
-.last-announcement
+.last-announcement{
+
+}
 
 .user{
     display: grid;
@@ -207,6 +220,7 @@ h1{
 
 .user img{
     grid-row: 1 / 3;
+    justify-self: center;
 }
 
 a, a:hover, a:focus, a:active {
