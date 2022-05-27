@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
+    font-size: 100%;
+    font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
 }
-
 
 .container{
     display: grid;
@@ -30,8 +34,23 @@ ul{
     list-style: none;
 }
 
+.side-item a,
+.logo h1 {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+}
+
 .side-img{
     margin-right: 15px;
+}
+
+.logo-img{
+    width: 75px;
+}
+
+.logo h1{
+    font-size: 25px;
 }
 
 .app-navigation{
@@ -78,8 +97,12 @@ form{
 }
 
 form button{
-    height: 20px;
-    width: 20px;
+    background-image: url(icons/magnify.svg);
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    width: 25px;
+    height: 25px;
 }
 
 .profile-settings{
