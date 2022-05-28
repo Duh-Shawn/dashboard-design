@@ -25,6 +25,7 @@ h1{
     background-color: #4338ca;
     padding-left: 15px;
     padding-top: 15px;
+    padding-right: 15px;
     grid-row: 1 / 3;
     display: grid;
     grid-template-rows: auto auto auto 1fr;
