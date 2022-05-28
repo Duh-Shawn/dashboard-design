@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 
 * {
@@ -6,6 +7,10 @@
     padding: 0;
     font-size: 100%;
     font-family: 'Roboto', 'Times New Roman', Times, serif, sans-serif;
+}
+
+h1{
+    font-weight: bold;
 }
 
 .container{
@@ -123,6 +128,11 @@ form button{
     gap: 25px;
 }
 
+.user-name h1{
+    font-size: 20px;
+}
+
+
 .profile-picture img{
     height: 50px;
     border-radius: 50px;
@@ -137,6 +147,10 @@ form button{
     grid-template-columns: auto 1fr;
     gap: 25px;
     align-items: center;
+}
+
+.greeting-username{
+    font-size: 30px;
 }
 
 .greeting img{
@@ -191,12 +205,12 @@ main{
     padding: 25px;
     display: grid;
     grid-template-rows: 0fr 1fr 1fr;
+    border-left: 10px solid #b3d89c;
 }
 
 .card p{
-    word-wrap: break-word;
-    word-break: break-all;
     width: 500px;
+    text-align: justify;
 }
 
 .card-links-wrapper{
@@ -230,22 +244,9 @@ main{
     gap: 0px;
 }
 
-.announcement{
-    border-top: solid;
-    border-bottom: solid;
-    border-width: 0.1px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.first-announcement,
-.last-announcement{
-    border-top: none;
-    border-bottom: none;
-}
-
-.last-announcement{
-
+.announcement-border{
+    height: 2px;
+    background-color: #eef2ff;
 }
 
 .user{
@@ -265,4 +266,10 @@ main{
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+.projects h1,
+.announcement-section h1,
+.trending-section h1{
+    margin-bottom: 15px;
 }

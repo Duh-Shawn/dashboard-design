@@ -9,14 +9,11 @@
 </head>
 <body>
     <div class="container">
-
         <nav class="sidebar">
             <div class="logo">
                 <img class="side-img logo-img" src="icons/pix_white_24dp.svg"/>
                 <h1>Dashboard</h1>
             </div>
-
-            
             <ul class="app-navigation">
                 <li class="side-item">
                     <a href="./home">
@@ -55,7 +52,6 @@
                     </a>
                 </li>
             </ul>
-
             <ul class="app-settings">
                 <li class="side-item">
                     <a href="./settings">
@@ -75,10 +71,8 @@
                         <p>Privacy</p>                       
                     </a>
                 </li>
-            </ul>                
-           
+            </ul>                 
         </nav>
-
         <header>
             <div class="search-bar">
                 <form id="search">
@@ -86,7 +80,6 @@
                     <input class="search-bar-field" type="search" id="query" name="query" placeholder="......"> 
                 </form>
             </div>
-
             <div class="profile-settings">                
                 <a class="notifications" href="./notifications">
                     <img class="side-img" src="icons/black/bell-alert-outline.svg"/>                       
@@ -95,14 +88,14 @@
                     <img class="side-img" src="profile-pics/ice-bear.jpg"/>                       
                 </a>
                 <a class="user-name" href="./settings">
-                    Morgan Oakley                       
+                    <h1>Morgan Oakley </h1>                     
                 </a>
             </div>
             
             <div class="welcome-section">
                 <div class="greeting">
                     <img src="profile-pics/ice-bear.jpg"/>
-                    <p>Hi there, <br>Morgan Oakley(@morgan)</p>
+                    <h1>Hi there, <br><p class="greeting-username">Morgan Oakley(@morgan)</p></h1>
                 </div>
             </div>
             <div class="button-container">
@@ -110,43 +103,8 @@
                 <button id="upload-article">Upload</button>
                 <button id="share-article">Share</button>
             </div>
-            <!-- <div class="header-nav">
-                <div class="search-bar">
-                    <form id="search">
-                        <button id="submit-query"></button>
-                        <input class="search-bar-field" type="search" id="query" name="query" placeholder="......"> 
-                    </form>
-                </div>
-    
-                <div class="profile-settings">                
-                    <a class="notifications" href="./notifications">
-                        <img class="side-img" src="icons/bell-alert-outline.svg"/>                       
-                    </a>
-                    <a class="profile-picture" href="./profile-picture">
-                        <img class="side-img" src="profile-pics/ice-bear.jpg"/>                       
-                    </a>
-                    <a class="user-name" href="./settings">
-                        Morgan Oakley                       
-                    </a>
-                </div>
-            </div>
-            <div class="welcome-section">
-                <div class="greeting">
-                    <img src="profile-pics/ice-bear.jpg"/>
-                    <p>Hi there, <br>Morgan Oakley(@morgan)</p>
-                </div>
-                <div class="article-buttons">
-                    <button id="new-article">New</button>
-                    <button id="upload-article">Upload</button>
-                    <button id="share-article">Share</button>
-                </div>
-                
-            </div> -->
         </header>
-        
-
         <main>
-
             <section class="projects">
                 <h1>Your Projects</h1>
                 <div class="projects-wrapper">
@@ -240,29 +198,29 @@
                             </a>
                         </div>
                     </div>
-                </div>
-                
+                </div> 
             </section>
-
             <section class="announcement-section">
                 <h1>Announcements</h1>
                 <div class="announcements-wrapper">
-                    <div class="announcement first-announcement">
+                    <div class="announcement">
                         <h3 class="title">Site Maintenance</h3>
                         <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapein et, facilissis dolor. Duis sem purus, divnissuum ut sapoien in, varius pellentesque lacus.</p>
+                    </div>
+                    <div class="announcement-border">
                     </div>
                     <div class="announcement">
                         <h3 class="title">Community Share Day</h3>
                         <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapein et, facilissis dolor. Duis sem purus, divnissuum ut sapoien in, varius pellentesque lacus.</p>
                     </div>
-                    <div class="announcement last-announcement">
+                    <div class="announcement-border">
+                    </div>
+                    <div class="announcement">
                         <h3 class="title">Updated Privacy Policy</h3>
                         <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapein et, facilissis dolor. Duis sem purus, divnissuum ut sapoien in, varius pellentesque lacus.</p>
                     </div>
                 </div>
-                
             </section>
-
             <section class="trending-section">
                 <h1>Trending</h1>
                 <div class="trending-wrapper">
@@ -286,10 +244,8 @@
                         <p class="user-handle">@alex</p>
                         <p class="user-description">No Traffic Maker</p>
                     </a>
-                </div>
-                
+                </div> 
             </section>
-    
         </main>
     </div>
 </body>
